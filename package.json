@@ -1,0 +1,25 @@
+{
+  "name": "free-claude-code-ai",
+  "version": "1.0.0",
+  "description": "Drop-in proxy that lets Claude Code talk to free model providers (Cloudflare Workers AI, NVIDIA NIM, OpenRouter, DeepSeek, LM Studio, llama.cpp, Ollama).",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test tests",
+    "bot:telegram": "node bots/telegram.js",
+    "bot:discord": "node bots/discord.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "optionalDependencies": {
+    "discord.js": "^14.16.0"
+  },
+  "license": "MIT"
+}

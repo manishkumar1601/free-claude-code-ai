@@ -36,6 +36,25 @@ client) talk to free or self-hosted model providers. It speaks the
 
 ---
 
+## Documentation
+
+Full developer docs live in [`docs/`](docs/README.md). Highlights:
+
+- [Architecture](docs/architecture.md) — request lifecycle, components
+- [Module walkthrough](docs/modules.md) — every file, what & why
+- [Translator](docs/translator.md) — Anthropic ↔ OpenAI conversion rules
+- [Streaming](docs/streaming.md) — SSE event-grammar rewrite
+- [Providers & routing](docs/providers.md) — chains, fallback, key rotation
+- [HTTP API](docs/api.md) — endpoint reference with examples
+- [Configuration](docs/configuration.md) — every env var
+- [Caching, stats, logging](docs/caching-stats-logging.md)
+- [Bots](docs/bots.md) — Telegram & Discord clients
+- [Deployment](docs/deployment.md) — Docker, reverse proxy, prod checklist
+- [Development](docs/development.md) — testing, conventions
+- [Troubleshooting](docs/troubleshooting.md) — common errors
+
+---
+
 ## Provider matrix
 
 | Provider     | Type   | Default base URL                                              | Auth                                              |

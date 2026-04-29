@@ -1,4 +1,4 @@
-# free-claude-code
+# free-claude-code-ai
 
 A drop-in proxy that lets **Claude Code** (and any Anthropic-compatible
 client) talk to free or self-hosted model providers. It speaks the
@@ -53,7 +53,7 @@ client) talk to free or self-hosted model providers. It speaks the
 ## Project layout
 
 ```
-free-claude-code/
+free-claude-code-ai/
 ├── src/
 │   ├── server.js        Express app, all routes
 │   ├── providers.js     Provider configs, fallback chain, key rotation, model router
@@ -90,8 +90,8 @@ No build step. No transpilation. Plain ES modules on Node 18+.
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-fork>/free-claude-code.git
-cd free-claude-code
+git clone https://github.com/<your-fork>/free-claude-code-ai.git
+cd free-claude-code-ai
 npm install
 cp .env.example .env
 # edit .env: set PROVIDER and that provider's credentials

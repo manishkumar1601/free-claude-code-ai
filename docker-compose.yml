@@ -1,8 +1,8 @@
 services:
   proxy:
     build: .
-    image: free-claude-code
-    container_name: free-claude-code
+    image: free-claude-code-ai
+    container_name: free-claude-code-ai
     ports:
       - "${PORT:-3000}:3000"
     env_file: .env

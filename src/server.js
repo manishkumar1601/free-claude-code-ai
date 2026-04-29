@@ -198,7 +198,7 @@ app.post('/v1/messages', requireAuth, async (req, res) => {
 await loadStats();
 
 app.listen(PORT, () => {
-  console.log(`free-claude-code listening on http://localhost:${PORT}`);
+  console.log(`free-claude-code-ai listening on http://localhost:${PORT}`);
   console.log(`provider chain: ${process.env.PROVIDER || 'cloudflare'}`);
   console.log(`dashboard: http://localhost:${PORT}/dashboard`);
 });

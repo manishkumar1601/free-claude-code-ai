@@ -4,7 +4,7 @@ export const dashboardHtml = String.raw`<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>free-claude-code</title>
+<title>free-claude-code-ai</title>
 <style>
   :root { color-scheme: dark; }
   body { font: 14px/1.5 -apple-system, system-ui, sans-serif; max-width: 960px;
@@ -27,7 +27,7 @@ export const dashboardHtml = String.raw`<!doctype html>
 </style>
 </head>
 <body>
-  <h1>free-claude-code</h1>
+  <h1>free-claude-code-ai</h1>
   <div class="muted">drop-in proxy · refreshing every 5s</div>
 
   <h2>Configuration</h2>
